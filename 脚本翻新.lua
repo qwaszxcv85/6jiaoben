@@ -117,7 +117,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/d
          end) 
 section:Button("dex2", function()
          print("Button")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIl/Script/main/Tools/DarkDexV3.lua", true))()          end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIl/Script/main/Tools/DarkDexV3.txt", true))()          end)
 local section = Tab:section("spy(小白更改)",false)
 section:Button("spy1", function()
          print("Button")
