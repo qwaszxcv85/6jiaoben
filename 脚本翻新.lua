@@ -1,5 +1,5 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/10h-pack/UI/refs/heads/main/i6.lua"))()
- local window = library:new("6")  local Tab = window:Tab("6") 
+ local window = library:new("必知!!!")  local Tab = window:Tab("6") 
 local section = Tab:section("前言必须查看!!!",true)
 section:Label("声明")
 section:Label("该脚本为两人合作缝合而成(不全都是缝合)")
@@ -106,11 +106,7 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
 section:Slider("移动速度", "", 1, 1, 100, false, function(Value)
      print(Value)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-              end)
-section:Slider("重力设置", "", 1, 1, 100, false, function(Value)
-     print(Value)
-game.Workspace.Gravity = Value
-              end)                                                                                         local Tab = window:Tab("dex和spy")         local section = Tab:section("dex",false)
+              end)                                                                                     local Tab = window:Tab("dex和spy")         local section = Tab:section("dex",false)
 section:Button("dex1", function()
          print("Button")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()                
@@ -127,6 +123,16 @@ section:Button("spy2", function()
          print("Button")
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/atoyayaya/jsnwusiwksbsu/main/spy')))()
          end)
+local Tab = window:Tab("战争大亨")
+local section = Tab:section("剑客",false)
+section:Button("剑客", function()
+           print("Button")
+Sword_Guest_V7 = "欢迎使用剑客V7"	
+Sword_Guest__V7 = "作者_初夏"	
+Sword_Guest___V7 = "剑客QQ群155160100"	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zer0neK/Hello/refs/heads/main/SG-V7"))()
+ end)
+
 local Tab = window:Tab("doors")
 local section = Tab:section("生成rush",false)
 section:Button("生成rush", function()
