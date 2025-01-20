@@ -2,6 +2,47 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/10h-p
  local window = library:new("6")  local Tab = window:Tab("必知!!!") 
 local section = Tab:section("前言必须查看!!!",true)
 section:Label("声明")
+section:Button("俄亥俄州玩家点这里", function()
+         print("Button")
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/VeaMSRZK"))()
+local Window = OrionLib:MakeWindow({Name = "俄亥俄州", HidePremium = false, SaveConfig = true,IntroText = "loading", ConfigFolder = "4646646"})
+local about = Window:MakeTab({
+    Name = "俄亥俄州",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+about:AddParagraph("小白&柳絮联合制作")	
+about:AddParagraph("您的用户名:"," "..game.Players.LocalPlayer.Name.."")
+about:AddParagraph("您的注入器:"," "..identifyexecutor().."")
+local Tab = Window:MakeTab({
+    Name = "脚本",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "指令",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/longshulol/long/main/longshu/Ohio"))()
+    end})
+about:AddParagraph("以下的指令在左边的脚本中使用(--可以删掉包括后面的字)")
+about:AddParagraph("使用脚本后，在聊天框输入")
+about:AddParagraph("透开 ---透视")
+about:AddParagraph("透关")
+about:AddParagraph("追踪开 ---子弹追踪")
+about:AddParagraph("追踪关")
+about:AddParagraph("收钱开 ---收集钱包")
+about:AddParagraph("收钱关")
+about:AddParagraph("收物开 ---收集物品")
+about:AddParagraph("收物关")
+about:AddParagraph("抢取款机开 ---抢ATM机")
+about:AddParagraph("抢取款机关")
+about:AddParagraph("抢银行开 ---抢银行（银行有钱自动抢）")
+about:AddParagraph("抢银行关")
+about:AddParagraph("穿墙开 ---穿墙")
+about:AddParagraph("穿墙关")
+about:AddParagraph("拳击光环开 ---拳头光环")
+about:AddParagraph("拳击光环关")
+         end)
 section:Label("俄亥俄州服务器会导致大部分的脚本消失(别到时候说我脚本不行)")
 section:Label("移速或者跳跃不正常的话，请到通用里面的玩家自己进行更改")
 section:Label("移动速度=16(不知道对不对👽)跳跃高度=50(不知道对不对😋)")
