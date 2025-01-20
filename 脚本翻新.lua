@@ -2,11 +2,9 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/10h-p
  local window = library:new("6")  local Tab = window:Tab("必知!!!") 
 local section = Tab:section("前言必须查看!!!",true)
 section:Label("声明")
-section:Button("使用前请点击", function()
-         print("Button")
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
-  Value = 50
-         end)
+section:Label("俄亥俄州服务器会导致大部分的脚本消失(别到时候说我脚本不行)")
+section:Label("移速或者跳跃不正常的话，请到通用里面的玩家自己进行更改")
+section:Label("移动速度=16(不知道对不对👽)跳跃高度=50(不知道对不对😋)")
 section:Label("该脚本为两人合作缝合而成(不全都是缝合)")
 section:Label("使用该脚本封号不负责")
 section:Label("小白&柳絮联合制作")
