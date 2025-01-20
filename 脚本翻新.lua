@@ -2,6 +2,11 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/10h-p
  local window = library:new("6")  local Tab = window:Tab("必知!!!") 
 local section = Tab:section("前言必须查看!!!",true)
 section:Label("声明")
+section:Button("使用前请点击", function()
+         print("Button")
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+  Value = 50
+         end)
 section:Label("该脚本为两人合作缝合而成(不全都是缝合)")
 section:Label("使用该脚本封号不负责")
 section:Label("小白&柳絮联合制作")
