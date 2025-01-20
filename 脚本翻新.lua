@@ -1,5 +1,10 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/10h-pack/UI/refs/heads/main/i6.lua"))()
  local window = library:new("6")  local Tab = window:Tab("必知!!!") 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "通知",
+    Text = "看到这个但是脚本没有打开，那就说明脚本已经停止了或者你被加入黑名单了",
+    Duration = 14.4
+})
 local section = Tab:section("前言必须查看!!!",true)
 section:Label("声明")
 section:Button("俄亥俄州玩家点这里", function()
