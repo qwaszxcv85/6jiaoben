@@ -1,5 +1,5 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/10h-pack/UI/refs/heads/main/i6.lua"))()
- local window = library:new("6")  local Tab = window:Tab("必知!!!") 
+local window = library:new("6")  local Tab = window:Tab("必知!!!") 
 game.StarterGui:SetCore("SendNotification", {
     Title = "6脚本",
     Text = "看到这个但是脚本没有打开，那就说明脚本已经停止了或者你被加入黑名单了",
@@ -114,7 +114,12 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
 section:Slider("移动速度", "", 16, 16, 400, false, function(Value)
      print(Value)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-              end)                                                                                     local Tab = window:Tab("dex和spy")         local section = Tab:section("dex",false)
+              end) 
+section:Slider("重力", "", 1, 1, 400, false, function(Value)
+     print(Value)
+ game.Workspace.Gravity = Value
+  end)
+local Tab = window:Tab("dex和spy")         local section = Tab:section("dex",false)
 section:Button("dex1", function()
          print("Button")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()                
