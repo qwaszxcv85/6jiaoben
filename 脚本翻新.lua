@@ -119,11 +119,7 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
 section:Slider("移动速度", "", 16, 16, 400, false, function(Value)
      print(Value)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-              end) 
-section:Slider("重力", "", 1, 1, 400, false, function(Value)
-     print(Value)
- game.Workspace.Gravity = Value
-  end)
+              end)
 local Tab = window:Tab("dex和spy")         local section = Tab:section("dex",false)
 section:Button("dex1", function()
          print("Button")
