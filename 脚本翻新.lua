@@ -107,11 +107,11 @@ section:Button("光影", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/jHBfJYmS"))()
 end)
 local section = Tab:section("玩家更改",false)         
-section:Slider("跳跃高度", "", 1, 50, 400, false, function(Value)
+section:Slider("跳跃高度", "", 50, 50, 400, false, function(Value)
      print(Value)
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value  
   end)
-section:Slider("移动速度", "", 1, 16, 400, false, function(Value)
+section:Slider("移动速度", "", 16, 16, 400, false, function(Value)
      print(Value)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
               end)                                                                                     local Tab = window:Tab("dex和spy")         local section = Tab:section("dex",false)
