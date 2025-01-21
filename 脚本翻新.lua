@@ -1,16 +1,12 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/10h-pack/UI/refs/heads/main/i6.lua"))()
  local window = library:new("6")  local Tab = window:Tab("必知!!!") 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "通知",
+    Title = "6脚本",
     Text = "看到这个但是脚本没有打开，那就说明脚本已经停止了或者你被加入黑名单了",
     Duration = 14.4
 })
 local section = Tab:section("前言必须查看!!!",true)
 section:Label("声明")
-section:Button("俄亥俄州玩家点这里", function()
-         print("Button")
- loadstring(game:HttpGet("https://pastebin.com/raw/hkvHeHed",true))()
-         end)
 section:Label("俄亥俄州服务器会导致大部分的脚本消失(别到时候说我脚本不行)")
 section:Label("移速或者跳跃不正常的话，请到通用里面的玩家自己进行更改")
 section:Label("移动速度=16(不知道对不对👽)跳跃高度=50(不知道对不对😋)")
@@ -111,11 +107,11 @@ section:Button("光影", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/jHBfJYmS"))()
 end)
 local section = Tab:section("玩家更改",false)         
-section:Slider("跳跃高度", "30", 1, 1, 100, false, function(Value)
+section:Slider("跳跃高度", "", 1, 50, 400, false, function(Value)
      print(Value)
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value  
   end)
-section:Slider("移动速度", "16", 1, 1, 100, false, function(Value)
+section:Slider("移动速度", "", 1, 16, 400, false, function(Value)
      print(Value)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
               end)                                                                                     local Tab = window:Tab("dex和spy")         local section = Tab:section("dex",false)
