@@ -1,3 +1,12 @@
+--[[你这辈子就只会偷源码了是吧，
+自己不会做脚本，
+我也没说全是我自己搞的，
+你搁那优越上了是吧，
+老弟，
+UI酷又不是我自己做的，
+但至少我也改过，
+你搁那儿优越上什么呀我也没看你做呀，
+刚问完你，你就去查资料，你也是个人才]]
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/10h-pack/UI/refs/heads/main/i6.lua"))()
 local window = library:new("6")  local Tab = window:Tab("必知!!!") 
 game.StarterGui:SetCore("SendNotification", {
