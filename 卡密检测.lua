@@ -2,7 +2,7 @@ local StarterGui = game:GetService("StarterGui")
 local Players = game:GetService("Players")
 
 local BlacklistedPlayers = {
-    ["10h_pack"] = true,
+    ["10h"] = true,
 }
 
 local function IsBlacklisted(player)
