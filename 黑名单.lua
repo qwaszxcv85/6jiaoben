@@ -2,7 +2,7 @@ local StarterGui = game:GetService("StarterGui")
 local Players = game:GetService("Players")
 
 local BlacklistedPlayers = {
-    ["10h_pac"] = true,
+    ["q9494979sksnxbzj5"] = true,
 }
 
 local function IsBlacklisted(player)
@@ -34,5 +34,6 @@ else
         Text = "玩家:" .. localPlayer.Name .. "，检测完毕，欢迎使用6脚本，感谢支持",
         Duration = 7,
     })
-loadstring(game:HttpGet("https://raw.githubusercontent.com/qwaszxcv85/6jiaoben/refs/heads/main/%E5%8D%A1%E5%AF%86%E6%A3%80%E6%B5%8B.lua"))()
 end
+--[[6脚本中心]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/qwaszxcv85/6jiaoben/refs/heads/main/%E5%85%AD%E8%84%9A%E6%9C%AC%E4%B8%AD%E5%BF%83.txt"))()
