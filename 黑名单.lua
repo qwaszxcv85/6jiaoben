@@ -34,6 +34,5 @@ else
         Text = "玩家:" .. localPlayer.Name .. "，检测完毕，欢迎使用6脚本，感谢支持",
         Duration = 7,
     })
-end
---[[6脚本中心]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/qwaszxcv85/6jiaoben/refs/heads/main/%E5%85%AD%E8%84%9A%E6%9C%AC%E4%B8%AD%E5%BF%83.txt"))()
+end
